@@ -1,12 +1,12 @@
 {
     "author": "Wraithan (http://wraithan.net)",
-    "name": "zenircbot-troll",
-    "description": "Makes ZenIRCBot a bit more of a troll.",
+    "name": "zenircbot-startup",
+    "description": "Service that has great startup ideas.",
     "version": "0.1.0",
-    "homepage": "http://github.com/zenirc/zenircbot-troll",
+    "homepage": "http://github.com/zenirc/zenircbot-startup",
     "repository": {
         "type": "git",
-        "url": "git://github.com/zenirc/zenircbot-troll.git"
+        "url": "git://github.com/zenirc/zenircbot-startup.git"
     },
     "dependencies": {
         "zenircbot-api": "2.3.1",
@@ -16,6 +16,6 @@
         "node": "*"
     },
     "scripts": {
-        "start": "node ./troll.js"
+        "start": "node ./startup.js"
     }
 }
